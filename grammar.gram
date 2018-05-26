@@ -1,0 +1,21 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+public <feelings>  = ( how are you | say hello);
+public <voices>  = ( change to voice one  | change to voice two | change to voice three );
+public <amazing>  = ( say amazing | what day is today );
+public <nervous>  = (who is your daddy | obey to me beach | hey boss);
+public <number> = ( zero | one | two | three | four | five | six | seven | nine | ten
+                   | eleven | twelve );
+public <time> = ( one | one fifteen | one thirty | one fortyfive | two | two fifteen | two thirty | two fortyfive | three | three fifteen | three thirty | three fortyfive | four | four fifteen | four thirty | four fortyfive | five | five fifteen | five thirty | five fortyfive | six | six fifteen | six thirty | six fortyfive | seven | seven fifteen | seven thirty | seven fortyfive | eight | eight fifteen | eight thirty | eight fortyfive | nine | nine fifteen | nine thirty | nine fortyfive | ten | ten fifteen | ten thirty | ten fortyfive | eleven | eleven fifteen | eleven thirty | eleven fortyfive | twelve | twelve fifteen | twelve thirty | twelve fortyfive );				   
+public <commands> = ( booking | cancel the booking | book an appointment | cancel an appointment );
+public <introduction> = (My name is John | My name is Disha Sehgal | The patient's name is Harsh);
+public <location> = (He is a resident of Dehradun | She lives in Delhi | He lives in Rajasthan | Kerala | Noida | Mumbai | Gurgaon | Bangalore | John lives in India);
+public <symptoms> = (cold | cough | fever | body pain | body ache | vomitting | stomach pain | diarrhea); 					
+public <syntax> = <number>{1} (plus | minus | multiply | division){1} <number>{1}; 
+public <names> = ( John | Smith | Aditya AA Th I Thy A | Ranganathan | Disha | Sehgal | Marcus | Emily | Danny | Kendra | Madison | Tony | Natasha);
